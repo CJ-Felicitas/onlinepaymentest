@@ -56,7 +56,7 @@
      </div>
 </div>
     </div>
-<?php $slot = DB::table('reservation')->get();?>
+<?php $slot = DB::table('reservation')->get();?>  
 
 <script type="text/javascript">
 function showVacant(str) {
@@ -64,11 +64,8 @@ function showVacant(str) {
   var rarray = <?php echo json_encode($slot); ?>
  for (let index = 0; index < rarray.length; index++)
  {
-      if (str === rarray[index].dateChosen && rarray[index]) {
-          // for (let j = 0; j < rarray[index].length; j++) {
-          // }
-
-
+      if (rarray[index].dateChosen && rarray[index]) {
+          document.getElementById("")
       }
 
  }

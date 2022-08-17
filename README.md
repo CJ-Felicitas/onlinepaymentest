@@ -1,1 +1,1 @@
-git ignore disabled
+A web application that handles an appointment system and accepts online payment
